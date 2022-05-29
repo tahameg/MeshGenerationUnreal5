@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CppLearning Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearning Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearning Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearning Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearning Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearning Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearning Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearning",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearningEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearningEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CppLearningEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		},
+		{
+			"label": "CppLearningEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"CppLearningEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UnrealLearning1\\CppLearning\\CppLearning.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Program Files\\EpicGames\\UE_5.0"
+			}
+		}
+	]
+}
