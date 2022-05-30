@@ -1,14 +1,19 @@
 {
-	"configurations": [
-		{
-			"name": "CppLearningEditor Editor Win64 Development (CppLearning)",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\Projects\\UnrealLearning1\\CppLearning\\.vscode\\compileCommands_CppLearning.json"
-		},
-		{
-			"name": "Win32",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\Projects\\UnrealLearning1\\CppLearning\\.vscode\\compileCommands_Default.json"
-		}
-	]
+    "configurations": [
+        {
+            "name": "CppLearningEditor Editor Win64 Development (CppLearning)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\UnrealLearning1\\CppLearning\\.vscode\\compileCommands_CppLearning.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Projects\\UnrealLearning1\\CppLearning\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }
